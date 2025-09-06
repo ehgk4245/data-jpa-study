@@ -1,9 +1,9 @@
 package com.datajpa.repository;
 
-import com.datajpa.entity.Member;
+import com.datajpa.entity.Team;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface MemberRepository extends JpaRepository<Member, Long> {
+public interface TeamRepository extends JpaRepository<Team, Long> {
 }
